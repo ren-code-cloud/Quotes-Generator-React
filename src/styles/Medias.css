@@ -1,0 +1,30 @@
+.social-medias {
+  display: grid;
+  place-items: center;
+  padding-top: 5rem;
+}
+h4 {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: .5em 0;
+}
+
+.social-media a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 3rem;
+  height: 3rem;
+  background: transparent;
+  border: .2rem solid #252B48;
+  font-size: 2rem;
+  border-radius: 50%;
+  color: var(--main-color);
+  margin: 1rem 1.3rem 1rem 0;
+  transition: .5s ease;
+}
+.social-media a:hover {
+  background: #252B48;
+  color: #fff;
+  box-shadow: 0 0 1rem rgba(0,0,0,.3);
+}

@@ -1,0 +1,19 @@
+.button-field {
+  padding: 1rem 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 3fr;
+  column-gap: 1em;
+
+}
+.button-field button {
+  padding: .5em 1.5rem;
+  border: .2rem solid #252B48;
+  border-radius: 1.3rem;
+  background: transparent;
+}
+.social-media a:hover,
+.button-field button:hover {
+  background: #252B48;
+  color: #fff;
+  box-shadow: 0 0 1rem rgba(0,0,0,.3);
+}

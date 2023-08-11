@@ -1,0 +1,27 @@
+.content-field {
+  padding: 2.5rem 1.5rem;
+  text-align: center;
+  position: relative;
+}
+.typing-dots::after {
+  content: "";
+  display: inline-block;
+  animation: typing 1.5s infinite;
+}
+@keyframes typing {
+  0%, 100% {content: "";}
+  25% {content: "."}
+  50% {content: ".."}
+  75% {content: "..."}
+}
+#author {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.typing-animation {
+  font-size: clamp(1.2rem, 4vw, 24px);
+  white-space: wrap;
+  overflow: hidden;
+  margin: 2rem 0;
+}
